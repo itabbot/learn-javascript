@@ -1,10 +1,12 @@
 # 疑问：JavaScript 中的 for、for-in、for-of 语句有何异同<!-- omit in toc -->
 
+在 JavaScript 中，for、for-in 和 for-of 都是用于循环迭代的语句，它们具有不同的语法和用途。
+
+## 目录<!-- omit in toc -->
+
 - [1. for 语句](#1-for-语句)
 - [2. for-in 语句](#2-for-in-语句)
 - [3. for-of 语句](#3-for-of-语句)
-
-在 JavaScript 中，for、for-in 和 for-of 都是用于循环迭代的语句，它们具有不同的语法和用途。
 
 ## 1. for 语句
 
@@ -52,7 +54,7 @@ for-in 循环用于遍历（不保证遍历顺序）对象的可枚举属性（�
 
 对象的可枚举属性包括：
 
-- 对象字面量中的属性，如：`const obj = { foo:'bar', baz:'qux' };`
+- 对象字面量中的属性，如：`const obj = { foo:'bar', baz:'qux' };`。
 - 使用 `Object.defineProperty()` 或 `Object.defineProperties()` 方法定义，且设置属性描述符 `enumerable:true` 的属性。
 - Array 数组的元素。
 - String 字符串的索引。
