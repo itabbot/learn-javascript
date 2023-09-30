@@ -1,7 +1,5 @@
 # 知识：JavaScript 中多种常用的模块化规范<!-- omit in toc -->
 
-## 目录<!-- omit in toc -->
-
 - [1. CommonJS](#1-commonjs)
 - [2. AMD](#2-amd)
 - [3. UMD](#3-umd)
