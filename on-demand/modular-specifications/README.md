@@ -147,4 +147,4 @@ import("./myModule1.js")
    - 即可通过导入的方式来使用模块中的导出的内容。
    - 但是 ESM 文件必须通过 HTTP(S) 或本地服务器访问，而不是直接在文件系统中打开（可启动 [`server.js`](./ESM/server.js) 服务）。
 3. 在 Node.js 中导入使用时：
-   - 若文件不使用 `.mjs` 后缀，则必须在 [`package.json`](./ESM/package.json) 中设置 “`"type": "module"`”。
+   - 若文件不使用 `.mjs` 后缀，则必须在 [`package.json`](./ESM/package.json) 中设置 `"type": "module"`。
