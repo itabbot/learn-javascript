@@ -45,8 +45,6 @@ UMD（Universal Module Definition，通用模块定义）是一种旨在兼容�
 3. 如果当前环境符合 CommonJS 规范，就使用 CommonJS 的方式来定义模块。
 4. 如果当前环境不符合以上两种规范，那么将模块导出到全局变量中，供全局访问。
 
-AMD
-
 ## 4. ESM
 
 ESM 是指 ES6 模块化 (ES6 Modules)。它是 ECMAScript 6（也称为 ES2015）引入的一种官方的 JavaScript 模块化规范。ESM 提供了一种标准化的方式来编写和组织 JavaScript 代码，使得开发者可以在项目中使用模块化的结构和语法，更好地管理和复用代码。ESM 发布后，主流浏览器和 Node.js 引擎陆续实现了对 ESM 的支持。相较于旧有的模块化方案如 AMD 和 CommonJS，ESM 具有以下特点：
