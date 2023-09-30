@@ -54,7 +54,7 @@ ESM 是指 ES6 模块化 (ES6 Modules)。它是 ECMAScript 6（也称为 ES2015�
 3. 单一实例引入： 在 ESM 中，模块的导入是单一实例的，即每个模块只会被导入一次，无论导入的位置有多少。这有助于减少重复代码执行和提高性能。
 4. 动态模块加载： 除了静态导入，ESM 还引入了 `import()` 函数用于动态加载模块。这使得开发者可以根据需要在运行时动态加载模块，而不是在一开始就全部导入。
 
-导出语法如（[myModule1.js](./ESM/myModule1.js)/[myModule2.js](./ESM/myModule2.js)）：
+导出语法如（[myModule1.js](./ESM/myModule1.js) / [myModule2.js](./ESM/myModule2.js)）：
 
 ```JavaScript
 // 命名导出（Named Exports）： 导出单个
