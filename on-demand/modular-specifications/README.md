@@ -30,6 +30,8 @@ console.log(myModule.foo); // 输出 'bar'
 console.log(myModule.add(2, 3)); // 输出 5
 ```
 
+CommonJS 的模块文件也可以使用 .cjs 后缀来明确表示。
+
 ## 2. AMD
 
 AMD (Asynchronous Module Definition，异步模块定义) 是一种用于在 JavaScript 中实现模块化的规范。它与 CommonJS 模块规范相对应，旨在满足在浏览器环境中异步加载模块的需求。它借助于回调函数和依赖声明来实现模块的异步加载，使得模块的加载不会阻塞页面的其他操作。AMD 规范主要由 [RequireJS](https://requirejs.org)（一个流行的 AMD 模块加载器，[GitHub](https://github.com/requirejs)）推广和实现。
